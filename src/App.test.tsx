@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import NavBar from "./components/NavBar";
 import "@testing-library/jest-dom";
-import Projects from "./pages/Projects";
+import Projects from "./pages/Projects/Projects";
 import Skills from "./pages/Skills";
 import About from "./pages/About";
 

@@ -1,6 +1,7 @@
 export default interface ProjectModel {
+  id: any;
   name: string;
   description: string;
-  link: string;
+  clone_url: string;
   image?: string | ImageBitmap;
 }
