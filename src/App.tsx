@@ -6,8 +6,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
-import NotFound from "./pages/NotFound";
-import Projects from "./pages/Projects";
+import Projects from "./pages/Projects/Projects";
 import Skills from "./pages/Skills";
 import Welcome from "./pages/Welcome";
 
