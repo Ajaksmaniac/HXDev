@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HXDev/static/css/main.2e7919c8.chunk.css",
-    "main.js": "/HXDev/static/js/main.d802f914.chunk.js",
-    "main.js.map": "/HXDev/static/js/main.d802f914.chunk.js.map",
+    "main.js": "/HXDev/static/js/main.e6d89fb1.chunk.js",
+    "main.js.map": "/HXDev/static/js/main.e6d89fb1.chunk.js.map",
     "runtime-main.js": "/HXDev/static/js/runtime-main.d8c9792c.js",
     "runtime-main.js.map": "/HXDev/static/js/runtime-main.d8c9792c.js.map",
     "static/js/2.740c9729.chunk.js": "/HXDev/static/js/2.740c9729.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d8c9792c.js",
     "static/js/2.740c9729.chunk.js",
     "static/css/main.2e7919c8.chunk.css",
-    "static/js/main.d802f914.chunk.js"
+    "static/js/main.e6d89fb1.chunk.js"
   ]
 }
