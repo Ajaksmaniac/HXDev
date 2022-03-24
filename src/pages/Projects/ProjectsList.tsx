@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-
-import { AxiosError } from "axios";
+import { useEffect, useState } from "react";
 import { useProjects } from "../../store/subject-context";
 import { Container, Spinner } from "react-bootstrap";
 import ProjectCard from "../../components/ProjectCard";

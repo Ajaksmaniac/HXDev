@@ -1,5 +1,3 @@
-import { render } from "@testing-library/react";
-import React from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
 const NavBar = () => {

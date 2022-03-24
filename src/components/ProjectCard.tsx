@@ -1,4 +1,3 @@
-import React from "react";
 import { Badge, Card } from "react-bootstrap";
 import ProjectModel from "../models/project";
 
