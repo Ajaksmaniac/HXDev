@@ -14,11 +14,11 @@ it("renders NavBar Component", () => {
   expect(screen.getByText(/About/i)).toBeVisible();
 });
 
-it("Projects page rendered succefuly", async () => {
-  render(<Projects />);
+// it("Projects page rendered succefuly", async () => {
+//   render(<Projects />);
 
-  expect(await screen.getByText("My Projects")).toBeVisible();
-});
+//   expect(await screen.getByText("My Projects")).toBeVisible();
+// });
 
 it("checks if router routes to /skills and renders Skills page", () => {
   render(<Skills />);
