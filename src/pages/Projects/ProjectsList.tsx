@@ -4,17 +4,6 @@ import { Container, Spinner } from "react-bootstrap";
 import ProjectCard from "../../components/ProjectCard";
 
 const ProjectList = (props: any) => {
-  //Paginator
-  // const [page, setPage] = useState(0)
-  // const [lastPage, setLastPage] = useState(0)
-  // const [size, setSize] = useState(8)
-
-  //Smackbar
-  // const classes = useStyles();
-  // const [open, setOpen] = React.useState(false as boolean);
-  // const [snackBarSeverity,setSnackBarSeverity] = useState(''as Color | undefined)
-  // const [snackBarMessage,setSnackBarBessage] = useState(''as string)
-
   //Project Context
   const { allProjects, isLoading, fetchProjects } = useProjects();
 
