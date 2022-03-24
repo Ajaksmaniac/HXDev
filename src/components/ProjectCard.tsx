@@ -15,7 +15,7 @@ const ProjectCard = ({ name, description, clone_url, image }: ProjectModel) => {
       }}
     >
       <Card.Header>
-        <Card.Title>{name}s</Card.Title>
+        <Card.Title>{name}</Card.Title>
       </Card.Header>
 
       <Card.Body>
