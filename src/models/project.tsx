@@ -4,4 +4,6 @@ export default interface ProjectModel {
   description: string;
   clone_url: string;
   image?: string | ImageBitmap;
+  languages?: string[];
+  languages_url: string;
 }

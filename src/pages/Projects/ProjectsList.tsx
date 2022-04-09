@@ -11,17 +11,13 @@ const ProjectList = (props: any) => {
 
   useEffect(() => {
     (async () => {
-      console.log(isLoading);
-
       await fetchProjects();
-      console.log(isLoading);
-      console.log("AAAA", allProjects);
       setRefresh(false);
     })();
   }, [refresh]);
 
   return (
-    <Container className="mt-5 ">
+    <Container className="mt-5 mb-10">
       <div className="row">
         {isLoading ? (
           <Spinner animation="border" role="status">
@@ -33,12 +29,13 @@ const ProjectList = (props: any) => {
               allProjects.length > 0 &&
               allProjects.map((proj) => {
                 return (
-                  <div className="col-sm-4">
+                  <div className="col-sm-4" key={proj.id}>
                     <ProjectCard
                       id={proj.id}
                       name={proj.name}
                       description={proj.description}
                       clone_url={proj.clone_url}
+                      languages_url={proj.languages_url}
                       image="asd"
                     />
                   </div>
