@@ -1,0 +1,9 @@
+- [x] Add Project context where it get all Projects
+- [x] Add Projects tab with Project Cards
+- [x] Add Basic GitHub Workflow
+- [x] Fix Card alingment in Projects tab
+- [x] Add tecnologies used within a project in ProjectCard
+- [ ] Add Tecnologiy filter in the Projects tab where only projects where selected tecnologies are used shows up
+- [ ] Add Skills page where Education and work experience is present
+- [ ] Add About page
+- [ ] Add publishing workflow that will publish to github pages if everything goes well

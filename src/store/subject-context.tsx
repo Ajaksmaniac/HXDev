@@ -22,11 +22,8 @@ export const ProjectContextProvider = (props: any) => {
     await axios
       .get(`https://api.github.com/users/ajaksmaniac/repos`)
       .then((res) => {
-        // wait(2000)
         setAllProjects(res.data);
         setIsLoading(false);
-
-        return res.data;
       });
   };
 
