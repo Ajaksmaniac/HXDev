@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/HXDev/static/css/main.2e7919c8.chunk.css",
-    "main.js": "/HXDev/static/js/main.6cdcb647.chunk.js",
-    "main.js.map": "/HXDev/static/js/main.6cdcb647.chunk.js.map",
-    "runtime-main.js": "/HXDev/static/js/runtime-main.038ab5d3.js",
-    "runtime-main.js.map": "/HXDev/static/js/runtime-main.038ab5d3.js.map",
-    "static/js/2.4b2f1ccb.chunk.js": "/HXDev/static/js/2.4b2f1ccb.chunk.js",
-    "static/js/2.4b2f1ccb.chunk.js.map": "/HXDev/static/js/2.4b2f1ccb.chunk.js.map",
-    "static/js/3.fea5b4e8.chunk.js": "/HXDev/static/js/3.fea5b4e8.chunk.js",
-    "static/js/3.fea5b4e8.chunk.js.map": "/HXDev/static/js/3.fea5b4e8.chunk.js.map",
+    "main.css": "/HXDev/static/css/main.e6c13ad2.css",
+    "main.js": "/HXDev/static/js/main.16e01f80.js",
+    "static/js/787.47cfbc0c.chunk.js": "/HXDev/static/js/787.47cfbc0c.chunk.js",
     "index.html": "/HXDev/index.html",
-    "static/css/main.2e7919c8.chunk.css.map": "/HXDev/static/css/main.2e7919c8.chunk.css.map",
-    "static/js/2.4b2f1ccb.chunk.js.LICENSE.txt": "/HXDev/static/js/2.4b2f1ccb.chunk.js.LICENSE.txt"
+    "main.e6c13ad2.css.map": "/HXDev/static/css/main.e6c13ad2.css.map",
+    "main.16e01f80.js.map": "/HXDev/static/js/main.16e01f80.js.map",
+    "787.47cfbc0c.chunk.js.map": "/HXDev/static/js/787.47cfbc0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.038ab5d3.js",
-    "static/js/2.4b2f1ccb.chunk.js",
-    "static/css/main.2e7919c8.chunk.css",
-    "static/js/main.6cdcb647.chunk.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.16e01f80.js"
   ]
 }
