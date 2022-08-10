@@ -7,3 +7,11 @@ export default interface ProjectModel {
   languages?: string[];
   languages_url: string;
 }
+
+export type keyValuePair= {[key: string]: number}
+
+export interface LocalStorageData{
+  projects: ProjectModel[];
+  overallUsedTechnologies: keyValuePair[];
+  expire: number;
+}

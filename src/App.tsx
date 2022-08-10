@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import Projects from "./pages/Projects/Projects";
-import Skills from "./pages/Skills";
+import ExperienceWrapper from "./pages/Experience/ExperienceWrapper";
 import Welcome from "./pages/Welcome";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/*" element={<Welcome />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
+          <Route path="/experience" element={<ExperienceWrapper />} />
         </Routes>
       </Container>
       <Footer />

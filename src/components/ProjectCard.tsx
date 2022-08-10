@@ -16,7 +16,7 @@ const ProjectCard = ({
     (async () => {
       setLanguages(await getProjectLanguages(languages_url));
     })();
-  }, []);
+  }); // eslint-disable-line
 
   if (languages[0] == null) {
     setLanguages(["unknown"]);

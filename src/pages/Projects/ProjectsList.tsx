@@ -11,10 +11,10 @@ const ProjectList = (props: any) => {
 
   useEffect(() => {
     (async () => {
-      await fetchProjects();
+      fetchProjects();
       setRefresh(false);
     })();
-  }, [refresh]);
+  }, [refresh]); // eslint-disable-line
 
   return (
     <Container className="mt-5 mb-10">
