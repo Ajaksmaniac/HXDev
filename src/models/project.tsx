@@ -4,13 +4,13 @@ export default interface ProjectModel {
   description: string;
   clone_url: string;
   image?: string | ImageBitmap;
-  languages?: string[];
+  languages?: string[] | Promise<string[]>;
   languages_url: string;
 }
 
-export type keyValuePair= {[key: string]: number}
+export type keyValuePair = { [key: string]: number };
 
-export interface LocalStorageData{
+export interface LocalStorageData {
   projects: ProjectModel[];
   overallUsedTechnologies: keyValuePair[];
   expire: number;

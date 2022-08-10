@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useProjects } from "../../store/subject-context";
-import { Container, Spinner } from "react-bootstrap";
-import ProjectCard from "../../components/ProjectCard";
+import { Container, Spinner, Table } from "react-bootstrap";
+import ProjectTableRow from "../../components/ProjectTableRow";
+import Config from "../../config";
 
 const ProjectList = (props: any) => {
   //Project Context
@@ -24,24 +25,24 @@ const ProjectList = (props: any) => {
             <span className="visually-hidden">Loading...</span>
           </Spinner>
         ) : (
-          <>
-            {allProjects &&
-              allProjects.length > 0 &&
-              allProjects.map((proj) => {
-                return (
-                  <div className="col-sm-4" key={proj.id}>
-                    <ProjectCard
-                      id={proj.id}
-                      name={proj.name}
-                      description={proj.description}
-                      clone_url={proj.clone_url}
-                      languages_url={proj.languages_url}
-                      image="asd"
-                    />
-                  </div>
-                );
-              })}
-          </>
+          <Table responsive="sm" size={props.isMobile && "sm"}>
+            <thead>
+              <tr>
+                <th>Name</th>
+                {!Config.isMobile && <th>Description</th>}
+                {!Config.isMobile && <th>Made with</th>}
+              </tr>
+            </thead>
+            <tbody>
+              {allProjects &&
+                allProjects.length > 0 &&
+                allProjects.map((proj, i) => {
+                  return (
+                    <ProjectTableRow project={proj} key={proj.name} id={i} />
+                  );
+                })}
+            </tbody>
+          </Table>
         )}
       </div>
     </Container>
