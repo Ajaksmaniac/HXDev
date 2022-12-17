@@ -28,6 +28,7 @@ Experienced **Software Developer** adept in bringing forth expertise in design, 
 
 ---
 
+- AWS Certified Cloud Practitioner (2022)
 - IBM InfoSphere Warehouse (2021)
 - IBM Essentials of Rational Software Architect (2017)
 - Oracle Database Design and Programming with SQL (2017)
