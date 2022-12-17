@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/HXDev/static/css/main.9f330772.css",
-    "main.js": "/HXDev/static/js/main.2198951d.js",
+    "main.js": "/HXDev/static/js/main.44a67053.js",
+    "static/js/498.89ea19ff.chunk.js": "/HXDev/static/js/498.89ea19ff.chunk.js",
+    "static/js/703.94a748b3.chunk.js": "/HXDev/static/js/703.94a748b3.chunk.js",
+    "static/js/513.cdfd6a2b.chunk.js": "/HXDev/static/js/513.cdfd6a2b.chunk.js",
     "static/js/787.47cfbc0c.chunk.js": "/HXDev/static/js/787.47cfbc0c.chunk.js",
     "static/media/fa-solid-900.svg": "/HXDev/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/HXDev/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
@@ -14,18 +17,22 @@
     "static/media/fa-brands-400.woff": "/HXDev/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
     "static/media/fa-solid-900.woff2": "/HXDev/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/fa-brands-400.woff2": "/HXDev/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/profile_picture.jpg": "/HXDev/static/media/profile_picture.1811bf8c0edc96805a75.jpg",
     "static/media/fa-regular-400.eot": "/HXDev/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
     "static/media/fa-regular-400.ttf": "/HXDev/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/fa-regular-400.woff": "/HXDev/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
     "static/media/fa-regular-400.woff2": "/HXDev/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
-    "static/media/Experience.md": "/HXDev/static/media/Experience.3834ec4c6b32675c7990.md",
+    "static/media/Experience.md": "/HXDev/static/media/Experience.4cee885c270ce914c9ff.md",
     "index.html": "/HXDev/index.html",
     "main.9f330772.css.map": "/HXDev/static/css/main.9f330772.css.map",
-    "main.2198951d.js.map": "/HXDev/static/js/main.2198951d.js.map",
+    "main.44a67053.js.map": "/HXDev/static/js/main.44a67053.js.map",
+    "498.89ea19ff.chunk.js.map": "/HXDev/static/js/498.89ea19ff.chunk.js.map",
+    "703.94a748b3.chunk.js.map": "/HXDev/static/js/703.94a748b3.chunk.js.map",
+    "513.cdfd6a2b.chunk.js.map": "/HXDev/static/js/513.cdfd6a2b.chunk.js.map",
     "787.47cfbc0c.chunk.js.map": "/HXDev/static/js/787.47cfbc0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f330772.css",
-    "static/js/main.2198951d.js"
+    "static/js/main.44a67053.js"
   ]
 }
