@@ -32,7 +32,7 @@ const Resume = () => {
               Phone: <b>611163700</b>
             </p>
             <p>
-              Email: <b>611163700</b>
+              Email: <b>ajakaca@gmail.com</b>
             </p>
           </Col>
         </Row>

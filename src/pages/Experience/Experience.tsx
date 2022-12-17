@@ -24,7 +24,8 @@ const Experience = () => {
             <Col>
               <Resume />
             </Col>
-            <Row>
+
+            <Row className="pt-5 align-items-center justify-content-center">
               <DownloadButton />
             </Row>
           </Row>

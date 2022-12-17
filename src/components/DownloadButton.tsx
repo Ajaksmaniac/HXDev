@@ -1,8 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import jsPDF from "jspdf";
-import { doesNotReject } from "assert";
-
+import Config from "../config";
 const DownloadButton = () => {
   const handleDownload = () => {
     const doc = new jsPDF({
@@ -10,11 +9,9 @@ const DownloadButton = () => {
       unit: "pt",
       format: "a4",
     });
-    // const doc = new jsPDF("landscape");
 
-    // document.getElementsByClassName("resume")[0].set
     doc.html(document.getElementsByClassName("resume")[0] as HTMLElement, {
-      margin: [10, 20, 30, 20],
+      margin: [10, 20, 30, 0],
       x: 10,
       y: 10,
       windowWidth: 700,
@@ -25,22 +22,27 @@ const DownloadButton = () => {
         foreignObjectRendering: false,
         scale: 0.8,
       },
-      //   autoPaging: false,
 
       async callback(doc) {
-        // doc.setFontSize(8);
         doc.setCharSpace(2);
         doc.setFont("Helvetica");
-        console.log(doc.getFontList());
-        await doc.save("pdf_name");
+        await doc.save("Aleksandar_Jovanov_Resume");
       },
     });
   };
 
   return (
-    <Button variant="primary" onClick={handleDownload}>
-      Download Resume PDF
-    </Button>
+    <>
+      {Config.isMobile ? (
+        <Button variant="primary" onClick={handleDownload}>
+          Download Resume PDF
+        </Button>
+      ) : (
+        <Button variant="primary" onClick={handleDownload} className={"w-25"}>
+          Download Resume PDF
+        </Button>
+      )}
+    </>
   );
 };
 
