@@ -15,14 +15,17 @@ Experienced **Software Developer** adept in bringing forth expertise in design, 
 
 ---
 
-- (February 2021 - present): Software Engineer **@Engineering Software Labs**, Belgrade
+- (February 2021 - present): Fullstack Software Engineer **@Engineering Software Labs**, Belgrade
 
-  3-month Internship where basics of Java, Databases and Angular were learned.
-  Maintained and expanded library for _Symptom Assessment health checker_ app to multiple platforms.
-  Implemented CI/CD pipelines and significantly accelerated delivery to clients and increased quality of product.
-
+  * Designed, developed, and maintained software solutions for diverse projects across Healthcare, Automotive, and Ministry sectors.
+  * Collaborated closely with cross-functional teams to deliver scalable and efficient applications.
+  * Implemented RESTful APIs and integrated third-party services to enhance system functionality.
+  * Ensured code quality through rigorous testing and code reviews.
+  * Actively participated in the entire software development lifecycle from concept to deployment and maintenance.
+  * Contributed to architectural decisions and provided technical guidance to junior developers.
+  * Utilized Agile methodologies for task management and tracked progress using Jira and Azure DevOps.
   **Technologies**: Kotlin, Gradle, JavaScript/Typescript with NodeJs, React, React Native,
-  CI/CD with Jenkins, Android and iOS
+  CI/CD(Jenkins, Azure DevOps, Gitlab), Android and iOS. 
 
 #### Certification
 
