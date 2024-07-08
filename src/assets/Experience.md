@@ -17,13 +17,14 @@ Experienced **Software Developer** adept in bringing forth expertise in design, 
 
 - (February 2021 - present): Fullstack Software Engineer **@Engineering Software Labs**, Belgrade
 
-  * Designed, developed, and maintained software solutions for diverse projects across Healthcare, Automotive, and Ministry sectors.
-  * Collaborated closely with cross-functional teams to deliver scalable and efficient applications.
-  * Implemented RESTful APIs and integrated third-party services to enhance system functionality.
-  * Ensured code quality through rigorous testing and code reviews.
-  * Actively participated in the entire software development lifecycle from concept to deployment and maintenance.
-  * Contributed to architectural decisions and provided technical guidance to junior developers.
-  * Utilized Agile methodologies for task management and tracked progress using Jira and Azure DevOps.
+  Designed, developed, and maintained software solutions for diverse projects across Healthcare, Automotive, and Ministry sectors.
+  Collaborated closely with cross-functional teams to deliver scalable and efficient applications.
+  Implemented RESTful APIs and integrated third-party services to enhance system functionality.
+  Ensured code quality through rigorous testing and code reviews.
+  Actively participated in the entire software development lifecycle from concept to deployment and maintenance.
+  Contributed to architectural decisions and provided technical guidance to junior developers.
+  Utilized Agile methodologies for task management and tracked progress using Jira and Azure DevOps.
+  
   **Technologies**: Kotlin, Gradle, JavaScript/Typescript with NodeJs, React, React Native,
   CI/CD(Jenkins, Azure DevOps, Gitlab), Android and iOS. 
 
@@ -37,9 +38,13 @@ Experienced **Software Developer** adept in bringing forth expertise in design, 
 - Oracle Database Design and Programming with SQL (2017)
 - ECDL - 4 Base modules(2016)
 
-#### Projects
+#### Featured projects
 
 ---
+- **Streamify** Youtube like application, where video watching, uploading, commenting, channel management, notifications and much more were implemented. Followed Spring cloud
+  principles for backend where multiple microservices are working together. Fronted was developed in React.
+
+- **HXDev** Online CV hosted on github pages, made for personal use to track my experience. This CV was rendered online by HX Dev.
 
 - **1CLICKOGLASI** Simple marketplace app for android. Backend services were made by firebase
 
@@ -50,3 +55,5 @@ Experienced **Software Developer** adept in bringing forth expertise in design, 
 - **Student Service** Simple CRUD app made with Node, Angular, Spring Boot, SQL stack. Used for registering studensts exames, gradind and much more..
 
 - **Devihub** Application for finding jobs and searching for developers, including authentication, authorization and various statistics.
+  
+
