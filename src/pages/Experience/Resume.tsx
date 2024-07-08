@@ -4,6 +4,7 @@ import resumePath from "./../../assets/Experience.md";
 import Image from "react-bootstrap/Image";
 import profilePicture from "./../../assets/profile_picture.jpg";
 import { Col, Row } from "react-bootstrap";
+
 const Resume = () => {
   let [file, setFile] = useState("");
 
@@ -17,10 +18,31 @@ const Resume = () => {
 
   return (
     <div className="content resume row g-2 ">
-      <div className="col-md-1 border-end border-2 border-primary">
+      <div className="col-md-2 border-end border-2 border-primary">
         <p style={{ fontSize: 9 }}>
           Updated on: <b>08.07.2024</b>
         </p>
+        <a
+          href="https://github.com/Ajaksmaniac"
+          className="d-flex align-items-center p-0 text-dark"
+        >
+          Github
+        </a>
+        <br />
+        <a
+          href="https://www.linkedin.com/in/aleksandar-jovanov-19b8809b/"
+          className="d-flex align-items-center p-0 text-dark"
+        >
+          LinkedIn
+        </a>
+
+        <br />
+        <a
+          href="https://ajaksmaniac.github.io/HXDev/#/experience"
+          className="d-flex align-items-center p-0 text-dark"
+        >
+          Resume
+        </a>
       </div>
       <div className="col-md-10">
         <Row>
