@@ -19,7 +19,7 @@ const Resume = () => {
     <div className="content resume row g-2 ">
       <div className="col-md-1 border-end border-2 border-primary">
         <p style={{ fontSize: 9 }}>
-          Updated on: <b>17.12.2022</b>
+          Updated on: <b>08.07.2024</b>
         </p>
       </div>
       <div className="col-md-10">
