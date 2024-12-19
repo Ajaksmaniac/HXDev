@@ -25,8 +25,8 @@ Experienced **Software Developer** adept in bringing forth expertise in design, 
   Contributed to architectural decisions and provided technical guidance to junior developers.
   Utilized Agile methodologies for task management and tracked progress using Jira and Azure DevOps.
   
-  **Technologies**: Kotlin, Gradle, JavaScript/Typescript with NodeJs, React, React Native,
-  CI/CD(Jenkins, Azure DevOps, Gitlab), Android and iOS. 
+  **Technologies**: Java, Spring, Kotlin, Gradle, JavaScript/Typescript with NodeJs, React, React Native, Angular
+  CI/CD(Jenkins, Azure DevOps, Gitlab), Android, iOS, Keycloak. 
 
 #### Certification
 
